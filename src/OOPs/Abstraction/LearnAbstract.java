@@ -12,7 +12,7 @@ public class LearnAbstract {
 }
 
 abstract class Vehicle{
-    abstract void accerlerate();  // in abstract class methods body should not be there.
+    abstract void accerlerate();  // in abstract class abstract methods body should not be there.
 
     abstract int brakes(int wheels);
 
