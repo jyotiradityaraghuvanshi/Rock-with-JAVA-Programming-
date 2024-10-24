@@ -2,7 +2,7 @@ package GenericsAndWrapperClass;
 
 public class LearnGenerics {
     public static void main(String[] args) {
-        MyClass<String , Object> obj = new MyClass<>("Jyoiraditya");
+        MyClass<String , Object> obj = new MyClass<>("Jyotiraditya");
 
         MyClass<Integer , Object> obj2 = new MyClass<>(8112003);
 
