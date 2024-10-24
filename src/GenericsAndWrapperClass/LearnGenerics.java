@@ -14,6 +14,10 @@ public class LearnGenerics {
 
         System.out.println(obj.getId());
 
+        BoundedGenerics<Number> boundedGenerics = new BoundedGenerics<>(7649);
+        boundedGenerics.display();
+        System.out.println(boundedGenerics);
+
     }
 }
 
